@@ -1,10 +1,8 @@
 import UIKit
 
-class HomeViewController: UIViewController {
+class TinyTinoPage1ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
 }
-
