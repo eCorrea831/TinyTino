@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED4F19F21E2AB1CD00837D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4F19F11E2AB1CD00837D55 /* Assets.xcassets */; };
+		ED9050EC1E2BE30300AA24B1 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9050EB1E2BE30300AA24B1 /* Story.swift */; };
+		ED9050F11E2BE3C100AA24B1 /* StoryCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9050F01E2BE3C100AA24B1 /* StoryCollection.swift */; };
 		EDB358B51E296110008BAE36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB358B41E296110008BAE36 /* AppDelegate.swift */; };
-		EDB358B71E296110008BAE36 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB358B61E296110008BAE36 /* FirstViewController.swift */; };
-		EDB358B91E296110008BAE36 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB358B81E296110008BAE36 /* SecondViewController.swift */; };
+		EDB358B71E296110008BAE36 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB358B61E296110008BAE36 /* HomeViewController.swift */; };
 		EDB358BC1E296110008BAE36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB358BA1E296110008BAE36 /* Main.storyboard */; };
-		EDB358BE1E296110008BAE36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB358BD1E296110008BAE36 /* Assets.xcassets */; };
 		EDB358C11E296110008BAE36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB358BF1E296110008BAE36 /* LaunchScreen.storyboard */; };
+		EDB358C91E296248008BAE36 /* StoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB358C81E296248008BAE36 /* StoryCollectionViewController.swift */; };
+		EDD8C99E1E3BA1D700922296 /* TinyTinoStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD8C99D1E3BA1D700922296 /* TinyTinoStory.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED4F19F11E2AB1CD00837D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED9050EB1E2BE30300AA24B1 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		ED9050F01E2BE3C100AA24B1 /* StoryCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryCollection.swift; sourceTree = "<group>"; };
 		EDB358B11E296110008BAE36 /* Tiny_Tino's_Interactive_Adventures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tiny_Tino's_Interactive_Adventures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB358B41E296110008BAE36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EDB358B61E296110008BAE36 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		EDB358B81E296110008BAE36 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EDB358B61E296110008BAE36 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EDB358BB1E296110008BAE36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EDB358BD1E296110008BAE36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDB358C01E296110008BAE36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDB358C21E296110008BAE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB358C81E296248008BAE36 /* StoryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewController.swift; sourceTree = "<group>"; };
+		EDD8C99D1E3BA1D700922296 /* TinyTinoStory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TinyTinoStory.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED9050ED1E2BE35B00AA24B1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDB358B61E296110008BAE36 /* HomeViewController.swift */,
+				EDB358C81E296248008BAE36 /* StoryCollectionViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		ED9050EE1E2BE36F00AA24B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED9050EB1E2BE30300AA24B1 /* Story.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		ED9050EF1E2BE37A00AA24B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EDB358BA1E296110008BAE36 /* Main.storyboard */,
+				EDD8C99D1E3BA1D700922296 /* TinyTinoStory.storyboard */,
+				EDB358BF1E296110008BAE36 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		EDB358A81E296110008BAE36 = {
 			isa = PBXGroup;
 			children = (
@@ -57,12 +90,12 @@
 			isa = PBXGroup;
 			children = (
 				EDB358B41E296110008BAE36 /* AppDelegate.swift */,
-				EDB358B61E296110008BAE36 /* FirstViewController.swift */,
-				EDB358B81E296110008BAE36 /* SecondViewController.swift */,
-				EDB358BA1E296110008BAE36 /* Main.storyboard */,
-				EDB358BD1E296110008BAE36 /* Assets.xcassets */,
-				EDB358BF1E296110008BAE36 /* LaunchScreen.storyboard */,
+				ED9050F01E2BE3C100AA24B1 /* StoryCollection.swift */,
+				ED9050EE1E2BE36F00AA24B1 /* Models */,
+				ED9050EF1E2BE37A00AA24B1 /* Views */,
+				ED9050ED1E2BE35B00AA24B1 /* Controllers */,
 				EDB358C21E296110008BAE36 /* Info.plist */,
+				ED4F19F11E2AB1CD00837D55 /* Assets.xcassets */,
 			);
 			path = "Tiny_Tino's_Interactive_Adventures";
 			sourceTree = "<group>";
@@ -128,7 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDB358C11E296110008BAE36 /* LaunchScreen.storyboard in Resources */,
-				EDB358BE1E296110008BAE36 /* Assets.xcassets in Resources */,
+				ED4F19F21E2AB1CD00837D55 /* Assets.xcassets in Resources */,
+				EDD8C99E1E3BA1D700922296 /* TinyTinoStory.storyboard in Resources */,
 				EDB358BC1E296110008BAE36 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,9 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDB358B91E296110008BAE36 /* SecondViewController.swift in Sources */,
 				EDB358B51E296110008BAE36 /* AppDelegate.swift in Sources */,
-				EDB358B71E296110008BAE36 /* FirstViewController.swift in Sources */,
+				EDB358C91E296248008BAE36 /* StoryCollectionViewController.swift in Sources */,
+				EDB358B71E296110008BAE36 /* HomeViewController.swift in Sources */,
+				ED9050EC1E2BE30300AA24B1 /* Story.swift in Sources */,
+				ED9050F11E2BE3C100AA24B1 /* StoryCollection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +342,7 @@
 				EDB358C71E296110008BAE36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

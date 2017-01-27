@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Tiny_Tino's_Interactive_Adventures
-//
-//  Created by Erica Correa on 1/13/17.
-//  Copyright © 2017 Erica Correa. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
