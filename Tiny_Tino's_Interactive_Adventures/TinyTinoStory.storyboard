@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -31,15 +31,15 @@
         <!--Page View Controller-->
         <scene sceneID="IBk-Dx-qvA">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Oqv-3k-XEV" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <pageViewController storyboardIdentifier="PageVC" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="SSa-uA-Kbs" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oqv-3k-XEV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="174" y="147"/>
         </scene>
-        <!--Tiny Tino Page1 View Controller-->
+        <!--Tiny Tino Cover View Controller-->
         <scene sceneID="XUV-B2-LZN">
             <objects>
-                <viewController storyboardIdentifier="Page1VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ze7-Z7-ilV" customClass="TinyTinoPage1ViewController" customModule="Tiny_Tino_s_Interactive_Adventures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CoverVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ze7-Z7-ilV" customClass="TinyTinoCoverViewController" customModule="Tiny_Tino_s_Interactive_Adventures" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hxQ-Sn-Vtk"/>
                         <viewControllerLayoutGuide type="bottom" id="fQn-rF-8zN"/>
@@ -48,7 +48,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Page 1" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zye-Tz-wdp">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cover" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zye-Tz-wdp">
                                 <rect key="frame" x="16" y="40" width="343" height="32"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
                                 <nil key="textColor"/>
@@ -71,10 +71,10 @@
             </objects>
             <point key="canvasLocation" x="-543" y="797"/>
         </scene>
-        <!--Tiny Tino Page2 View Controller-->
+        <!--Tiny Tino Page1 View Controller-->
         <scene sceneID="dsC-zf-2MB">
             <objects>
-                <viewController storyboardIdentifier="Page2VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WVa-za-Hij" customClass="TinyTinoPage2ViewController" customModule="Tiny_Tino_s_Interactive_Adventures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Page1VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WVa-za-Hij" customClass="TinyTinoPage1ViewController" customModule="Tiny_Tino_s_Interactive_Adventures" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="geW-a3-aXS"/>
                         <viewControllerLayoutGuide type="bottom" id="QEp-CL-3bM"/>
@@ -83,7 +83,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page 2" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EVS-Rq-4K0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page 1" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EVS-Rq-4K0">
                                 <rect key="frame" x="16" y="43" width="343" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
@@ -102,10 +102,10 @@
             </objects>
             <point key="canvasLocation" x="118" y="797"/>
         </scene>
-        <!--Tiny Tino Page3 View Controller-->
+        <!--Tiny Tino Page2 View Controller-->
         <scene sceneID="jjy-ak-Oyh">
             <objects>
-                <viewController storyboardIdentifier="Page3VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nVb-GM-V3H" customClass="TinyTinoPage3ViewController" customModule="Tiny_Tino_s_Interactive_Adventures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Page2VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nVb-GM-V3H" customClass="TinyTinoPage2ViewController" customModule="Tiny_Tino_s_Interactive_Adventures" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5M6-Oj-MQi"/>
                         <viewControllerLayoutGuide type="bottom" id="TUW-kp-NKX"/>
@@ -114,7 +114,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page 3" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8to-iR-6Xl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page 2" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8to-iR-6Xl">
                                 <rect key="frame" x="16" y="52" width="343" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
@@ -133,10 +133,10 @@
             </objects>
             <point key="canvasLocation" x="769" y="797"/>
         </scene>
-        <!--Tiny Tino Page4 View Controller-->
+        <!--Tiny Tino Page3 View Controller-->
         <scene sceneID="EIF-y2-9Cs">
             <objects>
-                <viewController storyboardIdentifier="Page4VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xrD-Mw-x0c" customClass="TinyTinoPage4ViewController" customModule="Tiny_Tino_s_Interactive_Adventures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Page3VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xrD-Mw-x0c" customClass="TinyTinoPage3ViewController" customModule="Tiny_Tino_s_Interactive_Adventures" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uAM-Ap-fNs"/>
                         <viewControllerLayoutGuide type="bottom" id="G9j-9Z-aFx"/>
@@ -145,7 +145,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page 4" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4q-8L-ebg">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page 3" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4q-8L-ebg">
                                 <rect key="frame" x="16" y="44" width="343" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
@@ -164,10 +164,10 @@
             </objects>
             <point key="canvasLocation" x="1439" y="797"/>
         </scene>
-        <!--Tiny Tino Page5 View Controller-->
+        <!--Tiny Tino Page4 View Controller-->
         <scene sceneID="ML1-Oj-buL">
             <objects>
-                <viewController storyboardIdentifier="Page5VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="usn-7g-pGq" customClass="TinyTinoPage5ViewController" customModule="Tiny_Tino_s_Interactive_Adventures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Page4VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="usn-7g-pGq" customClass="TinyTinoPage4ViewController" customModule="Tiny_Tino_s_Interactive_Adventures" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PYd-qP-qov"/>
                         <viewControllerLayoutGuide type="bottom" id="gQa-xg-TFE"/>
@@ -176,7 +176,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page 5" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clj-78-tb6">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page 4" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clj-78-tb6">
                                 <rect key="frame" x="16" y="41" width="343" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
@@ -195,10 +195,10 @@
             </objects>
             <point key="canvasLocation" x="2089" y="797"/>
         </scene>
-        <!--Tiny Tino Page6 View Controller-->
+        <!--Tiny Tino Page5 View Controller-->
         <scene sceneID="foi-45-MZn">
             <objects>
-                <viewController storyboardIdentifier="Page6VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Mpj-q0-Gdl" customClass="TinyTinoPage6ViewController" customModule="Tiny_Tino_s_Interactive_Adventures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Page5VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Mpj-q0-Gdl" customClass="TinyTinoPage5ViewController" customModule="Tiny_Tino_s_Interactive_Adventures" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Dbe-un-whH"/>
                         <viewControllerLayoutGuide type="bottom" id="g8r-Fh-xpr"/>
@@ -207,7 +207,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page 6" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VmU-aw-w0z">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page 5" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VmU-aw-w0z">
                                 <rect key="frame" x="16" y="48" width="343" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
@@ -226,10 +226,10 @@
             </objects>
             <point key="canvasLocation" x="2730" y="797"/>
         </scene>
-        <!--Tiny Tino Page7 View Controller-->
+        <!--Tiny Tino Page6 View Controller-->
         <scene sceneID="gba-8f-N0V">
             <objects>
-                <viewController storyboardIdentifier="Page7VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4g4-50-QqF" customClass="TinyTinoPage7ViewController" customModule="Tiny_Tino_s_Interactive_Adventures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Page6VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4g4-50-QqF" customClass="TinyTinoPage6ViewController" customModule="Tiny_Tino_s_Interactive_Adventures" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WDf-Qu-kAA"/>
                         <viewControllerLayoutGuide type="bottom" id="AVQ-PU-z5Z"/>
@@ -238,7 +238,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page 7" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YlA-fA-zrI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page 6" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YlA-fA-zrI">
                                 <rect key="frame" x="16" y="45" width="343" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
@@ -257,10 +257,10 @@
             </objects>
             <point key="canvasLocation" x="3398" y="797"/>
         </scene>
-        <!--Tiny Tino Page8 View Controller-->
+        <!--Tiny Tino Page7 View Controller-->
         <scene sceneID="oqd-GL-gho">
             <objects>
-                <viewController storyboardIdentifier="Page8VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="knp-uB-kaQ" customClass="TinyTinoPage8ViewController" customModule="Tiny_Tino_s_Interactive_Adventures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Page7VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="knp-uB-kaQ" customClass="TinyTinoPage7ViewController" customModule="Tiny_Tino_s_Interactive_Adventures" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NZx-RU-MOO"/>
                         <viewControllerLayoutGuide type="bottom" id="1TH-UW-O9Z"/>
@@ -269,7 +269,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page 8" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTO-iQ-uKM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page 7" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTO-iQ-uKM">
                                 <rect key="frame" x="16" y="48" width="343" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
@@ -288,10 +288,10 @@
             </objects>
             <point key="canvasLocation" x="4046" y="797"/>
         </scene>
-        <!--Tiny Tino Page9 View Controller-->
+        <!--Tiny Tino Page8 View Controller-->
         <scene sceneID="9fI-9w-HER">
             <objects>
-                <viewController storyboardIdentifier="Page9VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DZd-dd-DWc" customClass="TinyTinoPage9ViewController" customModule="Tiny_Tino_s_Interactive_Adventures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Page8VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DZd-dd-DWc" customClass="TinyTinoPage8ViewController" customModule="Tiny_Tino_s_Interactive_Adventures" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6VV-vO-xQB"/>
                         <viewControllerLayoutGuide type="bottom" id="Wx9-kJ-tGZ"/>
@@ -300,7 +300,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page 9" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9eI-pN-6KD">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page 8" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9eI-pN-6KD">
                                 <rect key="frame" x="16" y="49" width="343" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>

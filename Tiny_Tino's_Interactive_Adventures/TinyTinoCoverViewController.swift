@@ -1,6 +1,6 @@
 import UIKit
 
-class TinyTinoPage4ViewController: UIViewController {
+class TinyTinoCoverViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

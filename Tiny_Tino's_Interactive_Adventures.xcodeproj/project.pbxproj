@@ -16,7 +16,7 @@
 		EDB358C91E296248008BAE36 /* StoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB358C81E296248008BAE36 /* StoryCollectionViewController.swift */; };
 		EDD8C99E1E3BA1D700922296 /* TinyTinoStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD8C99D1E3BA1D700922296 /* TinyTinoStory.storyboard */; };
 		EDD8C9A11E3BA66B00922296 /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8C9A01E3BA66B00922296 /* StoryCollectionViewCell.swift */; };
-		EDD8C9A31E3BDE6300922296 /* TinyTinoPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8C9A21E3BDE6300922296 /* TinyTinoPage1ViewController.swift */; };
+		EDD8C9A31E3BDE6300922296 /* TinyTinoCoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8C9A21E3BDE6300922296 /* TinyTinoCoverViewController.swift */; };
 		EDD8C9A51E3BE53C00922296 /* StoryContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8C9A41E3BE53C00922296 /* StoryContainerViewController.swift */; };
 		EDD8C9A91E3BF9FC00922296 /* TinyTinoPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8C9A81E3BF9FC00922296 /* TinyTinoPage2ViewController.swift */; };
 		EDD8C9AB1E3BFA6100922296 /* TinyTinoPage3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8C9AA1E3BFA6100922296 /* TinyTinoPage3ViewController.swift */; };
@@ -25,7 +25,7 @@
 		EDD8C9B11E3BFA7700922296 /* TinyTinoPage6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8C9B01E3BFA7700922296 /* TinyTinoPage6ViewController.swift */; };
 		EDD8C9B31E3BFA8400922296 /* TinyTinoPage7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8C9B21E3BFA8400922296 /* TinyTinoPage7ViewController.swift */; };
 		EDD8C9B51E3BFA8A00922296 /* TinyTinoPage8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8C9B41E3BFA8A00922296 /* TinyTinoPage8ViewController.swift */; };
-		EDD8C9B71E3BFA9100922296 /* TinyTinoPage9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8C9B61E3BFA9100922296 /* TinyTinoPage9ViewController.swift */; };
+		EDD8C9B71E3BFA9100922296 /* TinyTinoPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8C9B61E3BFA9100922296 /* TinyTinoPage1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +40,7 @@
 		EDB358C81E296248008BAE36 /* StoryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewController.swift; sourceTree = "<group>"; };
 		EDD8C99D1E3BA1D700922296 /* TinyTinoStory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TinyTinoStory.storyboard; sourceTree = "<group>"; };
 		EDD8C9A01E3BA66B00922296 /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
-		EDD8C9A21E3BDE6300922296 /* TinyTinoPage1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinyTinoPage1ViewController.swift; sourceTree = "<group>"; };
+		EDD8C9A21E3BDE6300922296 /* TinyTinoCoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinyTinoCoverViewController.swift; sourceTree = "<group>"; };
 		EDD8C9A41E3BE53C00922296 /* StoryContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryContainerViewController.swift; sourceTree = "<group>"; };
 		EDD8C9A81E3BF9FC00922296 /* TinyTinoPage2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinyTinoPage2ViewController.swift; sourceTree = "<group>"; };
 		EDD8C9AA1E3BFA6100922296 /* TinyTinoPage3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinyTinoPage3ViewController.swift; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		EDD8C9B01E3BFA7700922296 /* TinyTinoPage6ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinyTinoPage6ViewController.swift; sourceTree = "<group>"; };
 		EDD8C9B21E3BFA8400922296 /* TinyTinoPage7ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinyTinoPage7ViewController.swift; sourceTree = "<group>"; };
 		EDD8C9B41E3BFA8A00922296 /* TinyTinoPage8ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinyTinoPage8ViewController.swift; sourceTree = "<group>"; };
-		EDD8C9B61E3BFA9100922296 /* TinyTinoPage9ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinyTinoPage9ViewController.swift; sourceTree = "<group>"; };
+		EDD8C9B61E3BFA9100922296 /* TinyTinoPage1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinyTinoPage1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				EDD8C9A41E3BE53C00922296 /* StoryContainerViewController.swift */,
-				EDD8C9A21E3BDE6300922296 /* TinyTinoPage1ViewController.swift */,
+				EDD8C9A21E3BDE6300922296 /* TinyTinoCoverViewController.swift */,
+				EDD8C9B61E3BFA9100922296 /* TinyTinoPage1ViewController.swift */,
 				EDD8C9A81E3BF9FC00922296 /* TinyTinoPage2ViewController.swift */,
 				EDD8C9AA1E3BFA6100922296 /* TinyTinoPage3ViewController.swift */,
 				EDD8C9AC1E3BFA6800922296 /* TinyTinoPage4ViewController.swift */,
@@ -141,7 +142,6 @@
 				EDD8C9B01E3BFA7700922296 /* TinyTinoPage6ViewController.swift */,
 				EDD8C9B21E3BFA8400922296 /* TinyTinoPage7ViewController.swift */,
 				EDD8C9B41E3BFA8A00922296 /* TinyTinoPage8ViewController.swift */,
-				EDD8C9B61E3BFA9100922296 /* TinyTinoPage9ViewController.swift */,
 			);
 			name = TinyTinoStory;
 			sourceTree = "<group>";
@@ -227,14 +227,14 @@
 				EDD8C9B51E3BFA8A00922296 /* TinyTinoPage8ViewController.swift in Sources */,
 				EDD8C9AD1E3BFA6800922296 /* TinyTinoPage4ViewController.swift in Sources */,
 				EDD8C9AF1E3BFA6F00922296 /* TinyTinoPage5ViewController.swift in Sources */,
-				EDD8C9A31E3BDE6300922296 /* TinyTinoPage1ViewController.swift in Sources */,
+				EDD8C9A31E3BDE6300922296 /* TinyTinoCoverViewController.swift in Sources */,
 				ED9050EC1E2BE30300AA24B1 /* Story.swift in Sources */,
 				EDD8C9B11E3BFA7700922296 /* TinyTinoPage6ViewController.swift in Sources */,
 				EDD8C9A51E3BE53C00922296 /* StoryContainerViewController.swift in Sources */,
 				ED9050F11E2BE3C100AA24B1 /* StoryCollection.swift in Sources */,
 				EDD8C9AB1E3BFA6100922296 /* TinyTinoPage3ViewController.swift in Sources */,
 				EDD8C9B31E3BFA8400922296 /* TinyTinoPage7ViewController.swift in Sources */,
-				EDD8C9B71E3BFA9100922296 /* TinyTinoPage9ViewController.swift in Sources */,
+				EDD8C9B71E3BFA9100922296 /* TinyTinoPage1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

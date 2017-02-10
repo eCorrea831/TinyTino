@@ -5,7 +5,6 @@ private let reuseIdentifier = "Cell"
 class StoryCollectionViewController: UICollectionViewController {
 
     let collection = StoryCollection()
-    let container = StoryContainerViewController()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,10 +33,6 @@ class StoryCollectionViewController: UICollectionViewController {
     // MARK: UICollectionViewDelegate
 
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-
-        let selectedStory = collection.stories[indexPath.row]
-        container.selectedStory = selectedStory
-
         let storyStoryboard = UIStoryboard(name: "TinyTinoStory", bundle: nil)
         let storyVC = storyStoryboard.instantiateViewController(withIdentifier: "StoryContainerVC")
         navigationController?.pushViewController(storyVC, animated: true)
