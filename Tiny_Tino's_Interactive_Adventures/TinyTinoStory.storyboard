@@ -92,6 +92,9 @@
                             <constraint firstItem="Mhy-kL-3Qs" firstAttribute="centerX" secondItem="HNL-FJ-ttD" secondAttribute="centerX" id="wpi-eD-mrq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="coverLabel" destination="dyD-8U-nsJ" id="mlh-DY-CX3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RjE-4E-bq0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -129,6 +132,9 @@ Can you count to 2?</string>
                                 <state key="normal" title="1">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="didTapOne:" destination="WVa-za-Hij" eventType="touchUpInside" id="XEK-1N-oZn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3g-fL-wmr">
                                 <rect key="frame" x="252" y="473" width="57" height="154"/>
@@ -136,6 +142,9 @@ Can you count to 2?</string>
                                 <state key="normal" title="2">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="didTapTwo:" destination="WVa-za-Hij" eventType="touchUpInside" id="jNc-Pc-3oP"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -152,6 +161,11 @@ Can you count to 2?</string>
                             <constraint firstAttribute="trailingMargin" secondItem="hgA-MA-r0d" secondAttribute="trailing" constant="85" id="uwu-M1-Kdl"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="oneButton" destination="xCY-bV-rvS" id="OAX-jB-TdR"/>
+                        <outlet property="pageTextLabel" destination="EVS-Rq-4K0" id="x7O-ml-7v0"/>
+                        <outlet property="twoButton" destination="f3g-fL-wmr" id="KgA-S4-DCf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LW3-fJ-P1C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -191,134 +205,9 @@ Open the windows and try to find his home!</string>
                                     <constraint firstAttribute="width" constant="40" id="yiI-qs-6gY"/>
                                 </constraints>
                                 <state key="normal" image="window_closed"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iq7-Pe-Uyu">
-                                <rect key="frame" x="60" y="333" width="40" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="DA7-JN-LOb"/>
-                                    <constraint firstAttribute="width" constant="40" id="scB-jC-81o"/>
-                                </constraints>
-                                <state key="normal" image="window_closed"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeU-ju-Rq5">
-                                <rect key="frame" x="60" y="393" width="40" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="97N-72-5iM"/>
-                                    <constraint firstAttribute="width" constant="40" id="ogp-SO-oxX"/>
-                                </constraints>
-                                <state key="normal" image="window_closed"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iiQ-DY-xZD">
-                                <rect key="frame" x="60" y="453" width="40" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="2rN-LI-N7T"/>
-                                    <constraint firstAttribute="width" constant="40" id="8B8-03-x7A"/>
-                                </constraints>
-                                <state key="normal" image="window_closed"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KkD-9W-uDs">
-                                <rect key="frame" x="60" y="513" width="40" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="2Nv-Oe-97t"/>
-                                    <constraint firstAttribute="width" constant="40" id="ySU-9o-aD4"/>
-                                </constraints>
-                                <state key="normal" image="window_closed"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lla-EX-fOJ">
-                                <rect key="frame" x="205" y="273" width="40" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="40" id="2IE-YA-Cmq"/>
-                                    <constraint firstAttribute="height" constant="52" id="bjx-Ga-JcA"/>
-                                </constraints>
-                                <state key="normal" image="window_closed"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WyE-dz-S4Y">
-                                <rect key="frame" x="205" y="333" width="40" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="Ux6-J8-ppf"/>
-                                    <constraint firstAttribute="width" constant="40" id="tjG-rP-GIe"/>
-                                </constraints>
-                                <state key="normal" image="window_closed"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QbF-hO-R4s">
-                                <rect key="frame" x="205" y="393" width="40" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="40" id="1gU-zX-qK0"/>
-                                    <constraint firstAttribute="height" constant="52" id="Wut-0d-yeg"/>
-                                </constraints>
-                                <state key="normal" image="window_closed"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r64-x5-xlW">
-                                <rect key="frame" x="205" y="453" width="40" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="7Us-8w-jVG"/>
-                                    <constraint firstAttribute="width" constant="40" id="LnY-2V-RQa"/>
-                                </constraints>
-                                <state key="normal" image="window_closed"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8n-IA-Jfw">
-                                <rect key="frame" x="205" y="513" width="40" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="MdO-dT-fGy"/>
-                                    <constraint firstAttribute="width" constant="40" id="OAL-lz-JfU"/>
-                                </constraints>
-                                <state key="normal" image="window_closed"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXs-JY-mtr">
-                                <rect key="frame" x="60" y="573" width="40" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="NaD-kS-9tk"/>
-                                    <constraint firstAttribute="width" constant="40" id="VoI-kS-eke"/>
-                                </constraints>
-                                <state key="normal" image="window_closed"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVO-4q-4d9">
-                                <rect key="frame" x="275" y="273" width="40" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="7O0-zW-LmN"/>
-                                    <constraint firstAttribute="width" constant="40" id="MYk-5M-6sL"/>
-                                </constraints>
-                                <state key="normal" image="window_closed"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifL-ce-I6q">
-                                <rect key="frame" x="275" y="333" width="40" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="40" id="lYR-NF-7Jv"/>
-                                    <constraint firstAttribute="height" constant="52" id="mLe-og-WGc"/>
-                                </constraints>
-                                <state key="normal" image="window_closed"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzt-UB-rei">
-                                <rect key="frame" x="275" y="393" width="40" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="Jpu-I8-3KQ"/>
-                                    <constraint firstAttribute="width" constant="40" id="NFG-o0-RBp"/>
-                                </constraints>
-                                <state key="normal" image="window_closed"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLc-Ki-uIO">
-                                <rect key="frame" x="275" y="453" width="40" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="3dk-us-Nuz"/>
-                                    <constraint firstAttribute="width" constant="40" id="sDm-ph-hDu"/>
-                                </constraints>
-                                <state key="normal" image="window_closed"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tc7-Yk-c2s">
-                                <rect key="frame" x="275" y="513" width="40" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="40" id="2oZ-r8-Ayx"/>
-                                    <constraint firstAttribute="height" constant="52" id="70a-Ds-JmU"/>
-                                </constraints>
-                                <state key="normal" image="window_closed"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9t4-if-IqH">
-                                <rect key="frame" x="275" y="573" width="40" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="AQU-vL-vCO"/>
-                                    <constraint firstAttribute="width" constant="40" id="yqL-Xk-1zO"/>
-                                </constraints>
-                                <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow1:" destination="nVb-GM-V3H" eventType="touchUpInside" id="ukk-2g-hx7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kzE-qQ-chY">
                                 <rect key="frame" x="130" y="273" width="40" height="52"/>
@@ -327,6 +216,42 @@ Open the windows and try to find his home!</string>
                                     <constraint firstAttribute="width" constant="40" id="chi-Dj-RH9"/>
                                 </constraints>
                                 <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow2:" destination="nVb-GM-V3H" eventType="touchUpInside" id="0D9-bv-kM3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lla-EX-fOJ">
+                                <rect key="frame" x="205" y="273" width="40" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="2IE-YA-Cmq"/>
+                                    <constraint firstAttribute="height" constant="52" id="bjx-Ga-JcA"/>
+                                </constraints>
+                                <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow3:" destination="nVb-GM-V3H" eventType="touchUpInside" id="0MC-8E-3uT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVO-4q-4d9">
+                                <rect key="frame" x="275" y="273" width="40" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="7O0-zW-LmN"/>
+                                    <constraint firstAttribute="width" constant="40" id="MYk-5M-6sL"/>
+                                </constraints>
+                                <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow4:" destination="nVb-GM-V3H" eventType="touchUpInside" id="S4H-wN-YZ3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iq7-Pe-Uyu">
+                                <rect key="frame" x="60" y="333" width="40" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="DA7-JN-LOb"/>
+                                    <constraint firstAttribute="width" constant="40" id="scB-jC-81o"/>
+                                </constraints>
+                                <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow5:" destination="nVb-GM-V3H" eventType="touchUpInside" id="Lgi-QJ-4rc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDb-4y-opn">
                                 <rect key="frame" x="130" y="333" width="40" height="52"/>
@@ -335,6 +260,42 @@ Open the windows and try to find his home!</string>
                                     <constraint firstAttribute="width" constant="40" id="blm-jS-yzK"/>
                                 </constraints>
                                 <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow6:" destination="nVb-GM-V3H" eventType="touchUpInside" id="YMl-o9-uTf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WyE-dz-S4Y">
+                                <rect key="frame" x="205" y="333" width="40" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="Ux6-J8-ppf"/>
+                                    <constraint firstAttribute="width" constant="40" id="tjG-rP-GIe"/>
+                                </constraints>
+                                <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow7:" destination="nVb-GM-V3H" eventType="touchUpInside" id="BJu-5p-CyE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifL-ce-I6q">
+                                <rect key="frame" x="275" y="333" width="40" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="lYR-NF-7Jv"/>
+                                    <constraint firstAttribute="height" constant="52" id="mLe-og-WGc"/>
+                                </constraints>
+                                <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow8:" destination="nVb-GM-V3H" eventType="touchUpInside" id="Ml2-Sg-gwK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeU-ju-Rq5">
+                                <rect key="frame" x="60" y="393" width="40" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="97N-72-5iM"/>
+                                    <constraint firstAttribute="width" constant="40" id="ogp-SO-oxX"/>
+                                </constraints>
+                                <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow9:" destination="nVb-GM-V3H" eventType="touchUpInside" id="e5i-c0-TE1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oUW-5T-1bI">
                                 <rect key="frame" x="130" y="393" width="40" height="52"/>
@@ -343,6 +304,42 @@ Open the windows and try to find his home!</string>
                                     <constraint firstAttribute="width" constant="40" id="xyg-WH-feH"/>
                                 </constraints>
                                 <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow10:" destination="nVb-GM-V3H" eventType="touchUpInside" id="UDn-3k-8tA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QbF-hO-R4s">
+                                <rect key="frame" x="205" y="393" width="40" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="1gU-zX-qK0"/>
+                                    <constraint firstAttribute="height" constant="52" id="Wut-0d-yeg"/>
+                                </constraints>
+                                <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow11:" destination="nVb-GM-V3H" eventType="touchUpInside" id="WIS-uw-17m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzt-UB-rei">
+                                <rect key="frame" x="275" y="393" width="40" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="Jpu-I8-3KQ"/>
+                                    <constraint firstAttribute="width" constant="40" id="NFG-o0-RBp"/>
+                                </constraints>
+                                <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow12:" destination="nVb-GM-V3H" eventType="touchUpInside" id="a0W-88-31C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iiQ-DY-xZD">
+                                <rect key="frame" x="60" y="453" width="40" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="2rN-LI-N7T"/>
+                                    <constraint firstAttribute="width" constant="40" id="8B8-03-x7A"/>
+                                </constraints>
+                                <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow13:" destination="nVb-GM-V3H" eventType="touchUpInside" id="nhn-oj-dvu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bug-Oi-SUV">
                                 <rect key="frame" x="130" y="453" width="40" height="52"/>
@@ -351,6 +348,42 @@ Open the windows and try to find his home!</string>
                                     <constraint firstAttribute="width" constant="40" id="crj-iM-Ndp"/>
                                 </constraints>
                                 <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow14:" destination="nVb-GM-V3H" eventType="touchUpInside" id="olR-s2-Iiv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r64-x5-xlW">
+                                <rect key="frame" x="205" y="453" width="40" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="7Us-8w-jVG"/>
+                                    <constraint firstAttribute="width" constant="40" id="LnY-2V-RQa"/>
+                                </constraints>
+                                <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow15:" destination="nVb-GM-V3H" eventType="touchUpInside" id="Dwc-he-FQf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLc-Ki-uIO">
+                                <rect key="frame" x="275" y="453" width="40" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="3dk-us-Nuz"/>
+                                    <constraint firstAttribute="width" constant="40" id="sDm-ph-hDu"/>
+                                </constraints>
+                                <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow16:" destination="nVb-GM-V3H" eventType="touchUpInside" id="Tmq-jw-6yE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KkD-9W-uDs">
+                                <rect key="frame" x="60" y="513" width="40" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="2Nv-Oe-97t"/>
+                                    <constraint firstAttribute="width" constant="40" id="ySU-9o-aD4"/>
+                                </constraints>
+                                <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow17:" destination="nVb-GM-V3H" eventType="touchUpInside" id="Z5z-sp-AYb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSt-wH-bBb">
                                 <rect key="frame" x="130" y="513" width="40" height="52"/>
@@ -359,7 +392,68 @@ Open the windows and try to find his home!</string>
                                     <constraint firstAttribute="width" constant="40" id="ISA-G0-fmY"/>
                                 </constraints>
                                 <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow18:" destination="nVb-GM-V3H" eventType="touchUpInside" id="Ez6-Qd-qGd"/>
+                                </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8n-IA-Jfw">
+                                <rect key="frame" x="205" y="513" width="40" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="MdO-dT-fGy"/>
+                                    <constraint firstAttribute="width" constant="40" id="OAL-lz-JfU"/>
+                                </constraints>
+                                <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow19:" destination="nVb-GM-V3H" eventType="touchUpInside" id="5zG-31-uGC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tc7-Yk-c2s">
+                                <rect key="frame" x="275" y="513" width="40" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="2oZ-r8-Ayx"/>
+                                    <constraint firstAttribute="height" constant="52" id="70a-Ds-JmU"/>
+                                </constraints>
+                                <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow20:" destination="nVb-GM-V3H" eventType="touchUpInside" id="Dpo-8O-8XO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXs-JY-mtr">
+                                <rect key="frame" x="60" y="573" width="40" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="NaD-kS-9tk"/>
+                                    <constraint firstAttribute="width" constant="40" id="VoI-kS-eke"/>
+                                </constraints>
+                                <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow21:" destination="nVb-GM-V3H" eventType="touchUpInside" id="yQp-Mz-vfu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9t4-if-IqH">
+                                <rect key="frame" x="275" y="573" width="40" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="AQU-vL-vCO"/>
+                                    <constraint firstAttribute="width" constant="40" id="yqL-Xk-1zO"/>
+                                </constraints>
+                                <state key="normal" image="window_closed"/>
+                                <connections>
+                                    <action selector="didTapWindow22:" destination="nVb-GM-V3H" eventType="touchUpInside" id="k63-pK-LWr"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bubble_hi" translatesAutoresizingMaskIntoConstraints="NO" id="v5q-nI-6wW">
+                                <rect key="frame" x="86" y="325.5" width="35" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="1Be-03-BaB"/>
+                                    <constraint firstAttribute="width" constant="35" id="ttu-JR-Ofz"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tino_window" translatesAutoresizingMaskIntoConstraints="NO" id="YWf-Jx-VZe">
+                                <rect key="frame" x="64" y="350.5" width="32" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="FjI-5U-5gm"/>
+                                    <constraint firstAttribute="width" constant="32" id="pdj-Da-vgB"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -379,11 +473,13 @@ Open the windows and try to find his home!</string>
                             <constraint firstItem="KkD-9W-uDs" firstAttribute="top" secondItem="iiQ-DY-xZD" secondAttribute="bottom" constant="8" id="HZT-JS-jR5"/>
                             <constraint firstItem="mzt-UB-rei" firstAttribute="leading" secondItem="QbF-hO-R4s" secondAttribute="trailing" constant="30" id="Hm4-IW-F9t"/>
                             <constraint firstItem="WyE-dz-S4Y" firstAttribute="top" secondItem="lla-EX-fOJ" secondAttribute="bottom" constant="8" id="KWp-Z1-U3F"/>
+                            <constraint firstItem="v5q-nI-6wW" firstAttribute="leading" secondItem="YWf-Jx-VZe" secondAttribute="trailing" constant="-10" id="NrK-cn-U8g"/>
                             <constraint firstItem="pz0-yu-qIv" firstAttribute="top" secondItem="kzE-qQ-chY" secondAttribute="bottom" constant="-74" id="OP0-AQ-3Ia"/>
                             <constraint firstItem="iiQ-DY-xZD" firstAttribute="top" secondItem="yeU-ju-Rq5" secondAttribute="bottom" constant="8" id="On1-wP-Tdq"/>
                             <constraint firstItem="TUW-kp-NKX" firstAttribute="top" secondItem="pz0-yu-qIv" secondAttribute="bottom" constant="20" id="OqI-ed-3gw"/>
                             <constraint firstItem="kzE-qQ-chY" firstAttribute="leading" secondItem="P5M-Kd-qeD" secondAttribute="trailing" constant="30" id="PNS-Pg-WIt"/>
                             <constraint firstItem="yeU-ju-Rq5" firstAttribute="top" secondItem="iq7-Pe-Uyu" secondAttribute="bottom" constant="8" id="R2c-sn-ndR"/>
+                            <constraint firstItem="YWf-Jx-VZe" firstAttribute="bottom" secondItem="iq7-Pe-Uyu" secondAttribute="bottom" constant="-1" id="RMv-Wu-8Ts"/>
                             <constraint firstItem="ifL-ce-I6q" firstAttribute="top" secondItem="wVO-4q-4d9" secondAttribute="bottom" constant="8" id="SbL-aY-ADE"/>
                             <constraint firstItem="ifL-ce-I6q" firstAttribute="leading" secondItem="WyE-dz-S4Y" secondAttribute="trailing" constant="30" id="UI5-u3-Kgt"/>
                             <constraint firstAttribute="leadingMargin" secondItem="tbe-oD-SP6" secondAttribute="leading" id="Vzt-mp-Hna"/>
@@ -391,6 +487,7 @@ Open the windows and try to find his home!</string>
                             <constraint firstItem="oUW-5T-1bI" firstAttribute="leading" secondItem="yeU-ju-Rq5" secondAttribute="trailing" constant="30" id="WXs-m1-Vj6"/>
                             <constraint firstItem="iq7-Pe-Uyu" firstAttribute="top" secondItem="P5M-Kd-qeD" secondAttribute="bottom" constant="8" id="X35-6c-gOL"/>
                             <constraint firstAttribute="trailingMargin" secondItem="tbe-oD-SP6" secondAttribute="trailing" id="XmL-hM-9qy"/>
+                            <constraint firstItem="YWf-Jx-VZe" firstAttribute="centerX" secondItem="iq7-Pe-Uyu" secondAttribute="centerX" id="YTj-XT-QAr"/>
                             <constraint firstItem="tbe-oD-SP6" firstAttribute="top" secondItem="5M6-Oj-MQi" secondAttribute="bottom" constant="110" id="Yb3-gi-tZs"/>
                             <constraint firstItem="pz0-yu-qIv" firstAttribute="leading" secondItem="KkD-9W-uDs" secondAttribute="trailing" constant="-60" id="Yh9-zE-An2"/>
                             <constraint firstItem="wVO-4q-4d9" firstAttribute="leading" secondItem="lla-EX-fOJ" secondAttribute="trailing" constant="30" id="Yk2-Sx-arK"/>
@@ -402,6 +499,7 @@ Open the windows and try to find his home!</string>
                             <constraint firstItem="pz0-yu-qIv" firstAttribute="top" secondItem="lla-EX-fOJ" secondAttribute="bottom" constant="-74" id="flI-Yt-ZXS"/>
                             <constraint firstItem="Bug-Oi-SUV" firstAttribute="top" secondItem="oUW-5T-1bI" secondAttribute="bottom" constant="8" id="hBv-UV-ddf"/>
                             <constraint firstItem="9t4-if-IqH" firstAttribute="leading" secondItem="pz0-yu-qIv" secondAttribute="trailing" constant="-60" id="l3A-2e-JJh"/>
+                            <constraint firstItem="YWf-Jx-VZe" firstAttribute="top" secondItem="v5q-nI-6wW" secondAttribute="bottom" constant="-13" id="lUJ-pd-37f"/>
                             <constraint firstItem="ZLc-Ki-uIO" firstAttribute="top" secondItem="mzt-UB-rei" secondAttribute="bottom" constant="8" id="oPq-47-4ou"/>
                             <constraint firstItem="Tc7-Yk-c2s" firstAttribute="leading" secondItem="pz0-yu-qIv" secondAttribute="trailing" constant="-60" id="p62-2H-gSe"/>
                             <constraint firstItem="9t4-if-IqH" firstAttribute="top" secondItem="Tc7-Yk-c2s" secondAttribute="bottom" constant="8" id="p6k-SS-7XX"/>
@@ -414,6 +512,33 @@ Open the windows and try to find his home!</string>
                             <constraint firstItem="pz0-yu-qIv" firstAttribute="centerX" secondItem="xrc-Rk-ssV" secondAttribute="centerX" id="ylK-Q8-AEO"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="hiBubbleImageView" destination="v5q-nI-6wW" id="eKD-0t-3jE"/>
+                        <outlet property="pageTextLabel" destination="tbe-oD-SP6" id="tQH-77-Kxh"/>
+                        <outlet property="tinoImageView" destination="YWf-Jx-VZe" id="U5d-pB-90O"/>
+                        <outlet property="window10Button" destination="oUW-5T-1bI" id="gMn-Ef-qxd"/>
+                        <outlet property="window11Button" destination="QbF-hO-R4s" id="I0F-DV-HGq"/>
+                        <outlet property="window12Button" destination="mzt-UB-rei" id="BW6-VC-TmK"/>
+                        <outlet property="window13Button" destination="iiQ-DY-xZD" id="Gvg-em-10B"/>
+                        <outlet property="window14Button" destination="Bug-Oi-SUV" id="qnv-1A-tlF"/>
+                        <outlet property="window15Button" destination="r64-x5-xlW" id="8e1-X5-uzQ"/>
+                        <outlet property="window16Button" destination="ZLc-Ki-uIO" id="VUS-85-Icb"/>
+                        <outlet property="window17Button" destination="KkD-9W-uDs" id="qnR-Ym-bww"/>
+                        <outlet property="window18Button" destination="HSt-wH-bBb" id="brN-9v-XRP"/>
+                        <outlet property="window19Button" destination="d8n-IA-Jfw" id="JEd-3M-SPr"/>
+                        <outlet property="window1Button" destination="P5M-Kd-qeD" id="kI8-H6-bt3"/>
+                        <outlet property="window20Button" destination="Tc7-Yk-c2s" id="hh6-at-8ja"/>
+                        <outlet property="window21Button" destination="cXs-JY-mtr" id="D3o-bj-AbA"/>
+                        <outlet property="window22Button" destination="9t4-if-IqH" id="Yer-1W-mgV"/>
+                        <outlet property="window2Button" destination="kzE-qQ-chY" id="GVy-gI-6pE"/>
+                        <outlet property="window3Button" destination="lla-EX-fOJ" id="xbV-Ud-Wkc"/>
+                        <outlet property="window4Button" destination="wVO-4q-4d9" id="XPf-MV-qhH"/>
+                        <outlet property="window5Button" destination="iq7-Pe-Uyu" id="Aj1-Fy-j0J"/>
+                        <outlet property="window6Button" destination="sDb-4y-opn" id="QcH-2m-own"/>
+                        <outlet property="window7Button" destination="WyE-dz-S4Y" id="DJo-Ij-eVr"/>
+                        <outlet property="window8Button" destination="ifL-ce-I6q" id="89L-Sf-Quy"/>
+                        <outlet property="window9Button" destination="yeU-ju-Rq5" id="Moy-hM-wxA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ay9-Ob-Fps" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -741,6 +866,7 @@ has curly hair just like him. Play with his hair.</string>
         <image name="apartment_empty" width="393" height="576"/>
         <image name="banana" width="127" height="221"/>
         <image name="bear_coloring" width="360" height="416"/>
+        <image name="bubble_hi" width="129" height="133"/>
         <image name="carrot" width="285" height="99"/>
         <image name="crayon_black" width="99" height="429"/>
         <image name="crayon_blue" width="99" height="429"/>
@@ -756,6 +882,7 @@ has curly hair just like him. Play with his hair.</string>
         <image name="monkey" width="458" height="471"/>
         <image name="onion" width="112" height="99"/>
         <image name="plate" width="509" height="470"/>
+        <image name="tino_window" width="388" height="433"/>
         <image name="tiny_tino_cover" width="1164" height="1552"/>
         <image name="tomato" width="100" height="100"/>
         <image name="window_closed" width="188" height="226"/>
