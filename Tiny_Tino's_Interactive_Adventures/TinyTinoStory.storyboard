@@ -146,6 +146,13 @@ Can you count to 2?</string>
                                     <action selector="didTapTwo:" destination="WVa-za-Hij" eventType="touchUpInside" id="jNc-Pc-3oP"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="callout_tap_me" translatesAutoresizingMaskIntoConstraints="NO" id="tTX-HZ-eTR">
+                                <rect key="frame" x="44" y="599" width="100" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Nv8-En-Uti"/>
+                                    <constraint firstAttribute="height" constant="68" id="ZCR-YP-RIR"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -154,16 +161,19 @@ Can you count to 2?</string>
                             <constraint firstItem="EVS-Rq-4K0" firstAttribute="top" secondItem="geW-a3-aXS" secondAttribute="bottom" constant="110" id="Kgh-3q-J6z"/>
                             <constraint firstAttribute="trailingMargin" secondItem="f3g-fL-wmr" secondAttribute="trailing" constant="50" id="PI0-D6-i69"/>
                             <constraint firstItem="xCY-bV-rvS" firstAttribute="leading" secondItem="pPc-An-hDm" secondAttribute="leadingMargin" constant="50" id="PgA-6d-5PP"/>
+                            <constraint firstItem="QEp-CL-3bM" firstAttribute="top" secondItem="tTX-HZ-eTR" secondAttribute="bottom" id="Stg-pF-vpU"/>
                             <constraint firstItem="EVS-Rq-4K0" firstAttribute="trailing" secondItem="pPc-An-hDm" secondAttribute="trailingMargin" id="ahp-18-ULf"/>
                             <constraint firstItem="QEp-CL-3bM" firstAttribute="top" secondItem="f3g-fL-wmr" secondAttribute="bottom" constant="40" id="cbm-bV-VVG"/>
                             <constraint firstItem="QEp-CL-3bM" firstAttribute="top" secondItem="xCY-bV-rvS" secondAttribute="bottom" constant="40" id="k5W-or-Uwy"/>
                             <constraint firstItem="EVS-Rq-4K0" firstAttribute="leading" secondItem="pPc-An-hDm" secondAttribute="leadingMargin" id="ns7-m5-uZg"/>
+                            <constraint firstItem="tTX-HZ-eTR" firstAttribute="centerX" secondItem="xCY-bV-rvS" secondAttribute="centerX" id="oqG-Di-LRS"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hgA-MA-r0d" secondAttribute="trailing" constant="85" id="uwu-M1-Kdl"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="oneButton" destination="xCY-bV-rvS" id="OAX-jB-TdR"/>
                         <outlet property="pageTextLabel" destination="EVS-Rq-4K0" id="x7O-ml-7v0"/>
+                        <outlet property="tapMeCallout" destination="tTX-HZ-eTR" id="JiH-oG-0Qs"/>
                         <outlet property="twoButton" destination="f3g-fL-wmr" id="KgA-S4-DCf"/>
                     </connections>
                 </viewController>
@@ -867,6 +877,7 @@ has curly hair just like him. Play with his hair.</string>
         <image name="banana" width="127" height="221"/>
         <image name="bear_coloring" width="360" height="416"/>
         <image name="bubble_hi" width="129" height="133"/>
+        <image name="callout_tap_me" width="114" height="99"/>
         <image name="carrot" width="285" height="99"/>
         <image name="crayon_black" width="99" height="429"/>
         <image name="crayon_blue" width="99" height="429"/>
