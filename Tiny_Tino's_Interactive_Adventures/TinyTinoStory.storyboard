@@ -635,60 +635,69 @@ has curly hair just like him. Play with his hair.</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="bottom" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="hCa-NT-yQA">
-                                <rect key="frame" x="6" y="546" width="363" height="121"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="crayon_black" translatesAutoresizingMaskIntoConstraints="NO" id="m0R-5s-nVN">
-                                        <rect key="frame" x="0.0" y="0.0" width="39.5" height="121"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="crayon_blue" translatesAutoresizingMaskIntoConstraints="NO" id="Z6s-BW-2xe">
-                                        <rect key="frame" x="40.5" y="0.0" width="39.5" height="121"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="crayon_red" translatesAutoresizingMaskIntoConstraints="NO" id="LaV-K7-pnd">
-                                        <rect key="frame" x="81" y="0.0" width="39.5" height="121"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="crayon_brown" translatesAutoresizingMaskIntoConstraints="NO" id="4fP-WN-Paa">
-                                        <rect key="frame" x="121.5" y="0.0" width="39.5" height="121"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="crayon_green" translatesAutoresizingMaskIntoConstraints="NO" id="KDR-8T-2FF">
-                                        <rect key="frame" x="162" y="0.0" width="39" height="121"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="crayon_yellow" translatesAutoresizingMaskIntoConstraints="NO" id="RiR-t5-lqz">
-                                        <rect key="frame" x="202" y="0.0" width="39.5" height="121"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="crayon_purple" translatesAutoresizingMaskIntoConstraints="NO" id="irY-bP-XGN">
-                                        <rect key="frame" x="242.5" y="0.0" width="39.5" height="121"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="crayon_orange" translatesAutoresizingMaskIntoConstraints="NO" id="GMK-2S-3Gh">
-                                        <rect key="frame" x="283" y="0.0" width="39.5" height="121"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eraser" translatesAutoresizingMaskIntoConstraints="NO" id="J74-Hc-p4j">
-                                        <rect key="frame" x="323.5" y="60.5" width="39.5" height="60.5"/>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="hCa-NT-yQA" secondAttribute="height" multiplier="3:1" id="29m-1R-elj"/>
-                                    <constraint firstItem="J74-Hc-p4j" firstAttribute="height" secondItem="GMK-2S-3Gh" secondAttribute="height" multiplier="1:2" id="rj4-c5-XEG"/>
-                                </constraints>
-                            </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bear_coloring" translatesAutoresizingMaskIntoConstraints="NO" id="HDk-HO-NUZ">
                                 <rect key="frame" x="49" y="209" width="276" height="296"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="HDk-HO-NUZ" secondAttribute="height" multiplier="322:355" constant="7.51549295774646" id="bHM-bc-gwv"/>
                                 </constraints>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="rbX-Fu-hEV">
+                                <rect key="frame" x="0.0" y="542" width="375" height="125"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFb-uW-DcF">
+                                        <rect key="frame" x="0.0" y="0.0" width="41.5" height="125"/>
+                                        <state key="normal" title="Button" image="crayon_black"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0j-H2-uzu">
+                                        <rect key="frame" x="41.5" y="0.0" width="42" height="125"/>
+                                        <state key="normal" title="Button" image="crayon_brown"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yzf-qG-4Ft">
+                                        <rect key="frame" x="83.5" y="0.0" width="41.5" height="125"/>
+                                        <state key="normal" title="Button" image="crayon_purple"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A88-iz-4dS">
+                                        <rect key="frame" x="125" y="0.0" width="41.5" height="125"/>
+                                        <state key="normal" title="Button" image="crayon_blue"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UZJ-Xt-9pq">
+                                        <rect key="frame" x="166.5" y="0.0" width="42" height="125"/>
+                                        <state key="normal" title="Button" image="crayon_green"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="biz-q2-qNO">
+                                        <rect key="frame" x="208.5" y="0.0" width="41.5" height="125"/>
+                                        <state key="normal" title="Button" image="crayon_yellow"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N6a-Re-M7L">
+                                        <rect key="frame" x="250" y="0.0" width="41.5" height="125"/>
+                                        <state key="normal" title="Button" image="crayon_orange"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eB-0D-s3f">
+                                        <rect key="frame" x="291.5" y="0.0" width="42" height="125"/>
+                                        <state key="normal" title="Button" image="crayon_red"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFj-xB-q2I">
+                                        <rect key="frame" x="333.5" y="62.5" width="41.5" height="62.5"/>
+                                        <state key="normal" title="Button" image="eraser"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="rbX-Fu-hEV" secondAttribute="height" multiplier="3:1" id="KvG-tP-zvR"/>
+                                    <constraint firstItem="pFj-xB-q2I" firstAttribute="height" secondItem="0eB-0D-s3f" secondAttribute="height" multiplier="1:2" id="xmI-Bn-hX1"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="1TH-UW-O9Z" firstAttribute="top" secondItem="rbX-Fu-hEV" secondAttribute="bottom" id="28e-Tw-1oO"/>
                             <constraint firstItem="3yf-Oz-5jv" firstAttribute="top" secondItem="NZx-RU-MOO" secondAttribute="bottom" constant="110" id="EJX-CR-hrl"/>
                             <constraint firstAttribute="trailingMargin" secondItem="HDk-HO-NUZ" secondAttribute="trailing" constant="34" id="LBi-fA-xei"/>
+                            <constraint firstItem="rbX-Fu-hEV" firstAttribute="leading" secondItem="jNN-zV-poI" secondAttribute="leading" id="Q3o-Ba-jK7"/>
                             <constraint firstItem="HDk-HO-NUZ" firstAttribute="leading" secondItem="jNN-zV-poI" secondAttribute="leadingMargin" constant="33" id="TzW-WA-hCv"/>
                             <constraint firstItem="HDk-HO-NUZ" firstAttribute="top" secondItem="3yf-Oz-5jv" secondAttribute="bottom" constant="8" id="VeM-0F-k1A"/>
                             <constraint firstItem="3yf-Oz-5jv" firstAttribute="trailing" secondItem="jNN-zV-poI" secondAttribute="trailingMargin" id="ZXm-IP-19d"/>
-                            <constraint firstItem="1TH-UW-O9Z" firstAttribute="top" secondItem="hCa-NT-yQA" secondAttribute="bottom" id="iq4-Rq-Zdh"/>
+                            <constraint firstAttribute="trailing" secondItem="rbX-Fu-hEV" secondAttribute="trailing" id="hN7-ci-0aT"/>
                             <constraint firstItem="3yf-Oz-5jv" firstAttribute="leading" secondItem="jNN-zV-poI" secondAttribute="leadingMargin" id="pov-Xt-HbU"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="hCa-NT-yQA" secondAttribute="trailing" constant="-10" id="qm9-3g-LHs"/>
-                            <constraint firstItem="hCa-NT-yQA" firstAttribute="leading" secondItem="jNN-zV-poI" secondAttribute="leadingMargin" constant="-10" id="zQH-KY-RXI"/>
                         </constraints>
                     </view>
                 </viewController>
