@@ -11,6 +11,12 @@ class TinyTinoPage1ViewController: UIViewController {
         super.viewDidLoad()
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+
+        pageTextLabel.animate(newText: pageTextLabel.text ?? "Ah! I'm blank!", wordDelay: 0.5)
+    }
+
     @IBAction func didTapOne(_ sender: Any) {
         oneButton.setTitleColor(UIColor.init(red: 0.16, green: 0.72, blue: 0.8, alpha: 1), for: .normal)
         oneButton.titleLabel!.font =  UIFont(name: "Chalkboard SE", size: 200)

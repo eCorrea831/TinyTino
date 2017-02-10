@@ -582,6 +582,9 @@ has curly hair just like him. Play with his hair.</string>
                             <constraint firstItem="Q7r-JD-eMb" firstAttribute="trailing" secondItem="Zvv-Sh-AHC" secondAttribute="trailingMargin" id="fCI-Bi-XBV"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pageTextLabel" destination="Q7r-JD-eMb" id="OBw-Ka-ZLE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TFz-zC-IB4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -640,6 +643,9 @@ has curly hair just like him. Play with his hair.</string>
                             <constraint firstItem="7U6-tH-MhC" firstAttribute="trailing" secondItem="SNM-AV-TAT" secondAttribute="trailingMargin" id="pYa-tc-tNt"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pageTextLabel" destination="77Z-Pj-iDG" id="Yhy-cp-VTk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5m0-yU-0Uh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -671,6 +677,9 @@ has curly hair just like him. Play with his hair.</string>
                             <constraint firstItem="DZT-Tm-SQA" firstAttribute="trailing" secondItem="gnQ-6z-UNz" secondAttribute="trailingMargin" id="g58-hl-6Qv"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pageTextLabel" destination="DZT-Tm-SQA" id="0jO-aD-s3g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wLc-cM-iTT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -747,6 +756,9 @@ has curly hair just like him. Play with his hair.</string>
                             <constraint firstItem="AmS-2E-dDr" firstAttribute="leading" secondItem="gGI-9P-Cfp" secondAttribute="leadingMargin" constant="95" id="zMs-AU-qOY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pageTextLabel" destination="dyU-bA-wXT" id="cQK-5p-bvm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DXf-sh-o34" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -835,6 +847,9 @@ has curly hair just like him. Play with his hair.</string>
                             <constraint firstItem="3yf-Oz-5jv" firstAttribute="leading" secondItem="jNN-zV-poI" secondAttribute="leadingMargin" id="pov-Xt-HbU"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pageTextLabel" destination="3yf-Oz-5jv" id="rZj-f4-vQ0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VXh-W3-HYl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -866,6 +881,9 @@ has curly hair just like him. Play with his hair.</string>
                             <constraint firstItem="7ny-EY-Y8a" firstAttribute="top" secondItem="6VV-vO-xQB" secondAttribute="bottom" constant="110" id="SYW-hr-i5s"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pageTextLabel" destination="7ny-EY-Y8a" id="LFV-1S-mvm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EGp-6T-L0o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

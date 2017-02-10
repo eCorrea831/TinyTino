@@ -37,6 +37,8 @@ class TinyTinoPage2ViewController: UIViewController {
         super.viewWillAppear(animated)
         tinoImageView.isHidden = true
         hiBubbleImageView.isHidden = true
+
+        pageTextLabel.animate(newText: pageTextLabel.text ?? "Ah! I'm blank!", wordDelay: 0.5)
     }
 
     @IBAction func didTapWindow1(_ sender: Any) {

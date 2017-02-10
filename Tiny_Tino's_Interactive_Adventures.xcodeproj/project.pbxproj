@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED277B961E4E5D5B0079661D /* LabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED277B951E4E5D5B0079661D /* LabelExtension.swift */; };
 		ED4F19F21E2AB1CD00837D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4F19F11E2AB1CD00837D55 /* Assets.xcassets */; };
 		ED9050EC1E2BE30300AA24B1 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9050EB1E2BE30300AA24B1 /* Story.swift */; };
 		ED9050F11E2BE3C100AA24B1 /* StoryCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9050F01E2BE3C100AA24B1 /* StoryCollection.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED277B951E4E5D5B0079661D /* LabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelExtension.swift; sourceTree = "<group>"; };
 		ED4F19F11E2AB1CD00837D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED9050EB1E2BE30300AA24B1 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		ED9050F01E2BE3C100AA24B1 /* StoryCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryCollection.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				ED9050EB1E2BE30300AA24B1 /* Story.swift */,
+				ED277B951E4E5D5B0079661D /* LabelExtension.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				EDD8C9B11E3BFA7700922296 /* TinyTinoPage6ViewController.swift in Sources */,
 				EDD8C9A51E3BE53C00922296 /* StoryContainerViewController.swift in Sources */,
 				ED9050F11E2BE3C100AA24B1 /* StoryCollection.swift in Sources */,
+				ED277B961E4E5D5B0079661D /* LabelExtension.swift in Sources */,
 				EDD8C9AB1E3BFA6100922296 /* TinyTinoPage3ViewController.swift in Sources */,
 				EDD8C9B31E3BFA8400922296 /* TinyTinoPage7ViewController.swift in Sources */,
 				EDD8C9B71E3BFA9100922296 /* TinyTinoPage1ViewController.swift in Sources */,
