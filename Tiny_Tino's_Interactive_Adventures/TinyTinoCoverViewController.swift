@@ -8,9 +8,15 @@ class TinyTinoCoverViewController: UIViewController {
         super.viewDidLoad()
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        coverLabel.text = ""
+    }
+
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
-        coverLabel.animate(newText: coverLabel.text ?? "Ah! I'm blank!", wordDelay: 0.5)
+        coverLabel.add(word: "Tiny", after: 0.5)
+        coverLabel.add(word: "Tino!", after: 1.0)
     }
 }

@@ -13,10 +13,15 @@ extension UILabel {
             for word in words {
                 let index = words.index(of: word)
                 DispatchQueue.main.asyncAfter(deadline: .now() + wordDelay * Double(index!)) {
-                    self.text?.append(" "+word)
+                    self.text?.append(" " + word)
                 }
             }
         }
     }
+
+    func add(word: String, after wordDelay: TimeInterval) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + wordDelay) {
+            self.text?.append(" " + word)
+        }}
     
 }
