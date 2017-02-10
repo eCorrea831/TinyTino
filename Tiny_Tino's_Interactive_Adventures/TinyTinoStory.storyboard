@@ -113,7 +113,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EVS-Rq-4K0">
-                                <rect key="frame" x="16" y="130" width="343" height="71"/>
+                                <rect key="frame" x="16" y="110" width="343" height="71"/>
                                 <string key="text">This is Tino. He is 2 years old. 
 Can you count to 2?</string>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="25"/>
@@ -156,9 +156,8 @@ Can you count to 2?</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="hgA-MA-r0d" firstAttribute="top" secondItem="EVS-Rq-4K0" secondAttribute="bottom" constant="24" id="87t-hl-t0s"/>
                             <constraint firstItem="hgA-MA-r0d" firstAttribute="leading" secondItem="pPc-An-hDm" secondAttribute="leadingMargin" constant="85" id="IPS-jq-spc"/>
-                            <constraint firstItem="EVS-Rq-4K0" firstAttribute="top" secondItem="geW-a3-aXS" secondAttribute="bottom" constant="110" id="Kgh-3q-J6z"/>
+                            <constraint firstItem="EVS-Rq-4K0" firstAttribute="top" secondItem="geW-a3-aXS" secondAttribute="bottom" constant="90" id="Kgh-3q-J6z"/>
                             <constraint firstAttribute="trailingMargin" secondItem="f3g-fL-wmr" secondAttribute="trailing" constant="50" id="PI0-D6-i69"/>
                             <constraint firstItem="xCY-bV-rvS" firstAttribute="leading" secondItem="pPc-An-hDm" secondAttribute="leadingMargin" constant="50" id="PgA-6d-5PP"/>
                             <constraint firstItem="QEp-CL-3bM" firstAttribute="top" secondItem="tTX-HZ-eTR" secondAttribute="bottom" id="Stg-pF-vpU"/>
@@ -168,6 +167,7 @@ Can you count to 2?</string>
                             <constraint firstItem="EVS-Rq-4K0" firstAttribute="leading" secondItem="pPc-An-hDm" secondAttribute="leadingMargin" id="ns7-m5-uZg"/>
                             <constraint firstItem="tTX-HZ-eTR" firstAttribute="centerX" secondItem="xCY-bV-rvS" secondAttribute="centerX" id="oqG-Di-LRS"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hgA-MA-r0d" secondAttribute="trailing" constant="85" id="uwu-M1-Kdl"/>
+                            <constraint firstItem="xCY-bV-rvS" firstAttribute="top" secondItem="hgA-MA-r0d" secondAttribute="bottom" constant="31" id="xdQ-aC-OM3"/>
                         </constraints>
                     </view>
                     <connections>
@@ -194,7 +194,7 @@ Can you count to 2?</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbe-oD-SP6">
-                                <rect key="frame" x="16" y="130" width="343" height="106.5"/>
+                                <rect key="frame" x="16" y="110" width="343" height="106.5"/>
                                 <string key="text">He lives in an apartment. 
 Open the windows and try to find his home!</string>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="25"/>
@@ -498,7 +498,7 @@ Open the windows and try to find his home!</string>
                             <constraint firstItem="iq7-Pe-Uyu" firstAttribute="top" secondItem="P5M-Kd-qeD" secondAttribute="bottom" constant="8" id="X35-6c-gOL"/>
                             <constraint firstAttribute="trailingMargin" secondItem="tbe-oD-SP6" secondAttribute="trailing" id="XmL-hM-9qy"/>
                             <constraint firstItem="YWf-Jx-VZe" firstAttribute="centerX" secondItem="iq7-Pe-Uyu" secondAttribute="centerX" id="YTj-XT-QAr"/>
-                            <constraint firstItem="tbe-oD-SP6" firstAttribute="top" secondItem="5M6-Oj-MQi" secondAttribute="bottom" constant="110" id="Yb3-gi-tZs"/>
+                            <constraint firstItem="tbe-oD-SP6" firstAttribute="top" secondItem="5M6-Oj-MQi" secondAttribute="bottom" constant="90" id="Yb3-gi-tZs"/>
                             <constraint firstItem="pz0-yu-qIv" firstAttribute="leading" secondItem="KkD-9W-uDs" secondAttribute="trailing" constant="-60" id="Yh9-zE-An2"/>
                             <constraint firstItem="wVO-4q-4d9" firstAttribute="leading" secondItem="lla-EX-fOJ" secondAttribute="trailing" constant="30" id="Yk2-Sx-arK"/>
                             <constraint firstItem="pz0-yu-qIv" firstAttribute="leading" secondItem="iiQ-DY-xZD" secondAttribute="trailing" constant="-60" id="ZMU-Pn-Asq"/>
@@ -567,7 +567,7 @@ Open the windows and try to find his home!</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q7r-JD-eMb">
-                                <rect key="frame" x="16" y="130" width="343" height="106.5"/>
+                                <rect key="frame" x="16" y="110" width="343" height="106.5"/>
                                 <string key="text">This is his papi. Tino 
 has curly hair just like him. Play with his hair.</string>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="25"/>
@@ -577,7 +577,7 @@ has curly hair just like him. Play with his hair.</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Q7r-JD-eMb" firstAttribute="top" secondItem="uAM-Ap-fNs" secondAttribute="bottom" constant="110" id="Cfj-XJ-ZdT"/>
+                            <constraint firstItem="Q7r-JD-eMb" firstAttribute="top" secondItem="uAM-Ap-fNs" secondAttribute="bottom" constant="90" id="Cfj-XJ-ZdT"/>
                             <constraint firstItem="Q7r-JD-eMb" firstAttribute="leading" secondItem="Zvv-Sh-AHC" secondAttribute="leadingMargin" id="XBP-f1-pQG"/>
                             <constraint firstItem="Q7r-JD-eMb" firstAttribute="trailing" secondItem="Zvv-Sh-AHC" secondAttribute="trailingMargin" id="fCI-Bi-XBV"/>
                         </constraints>
@@ -603,7 +603,7 @@ has curly hair just like him. Play with his hair.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Papi likes to play games on his phone. Help him feed the monkeys!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77Z-Pj-iDG">
-                                <rect key="frame" x="16" y="130" width="343" height="106.5"/>
+                                <rect key="frame" x="16" y="110" width="343" height="106.5"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -632,9 +632,9 @@ has curly hair just like him. Play with his hair.</string>
                             <constraint firstItem="gQa-xg-TFE" firstAttribute="top" secondItem="7U6-tH-MhC" secondAttribute="bottom" constant="111" id="1e7-Py-ilt"/>
                             <constraint firstItem="7U6-tH-MhC" firstAttribute="leading" secondItem="SNM-AV-TAT" secondAttribute="leadingMargin" id="D3m-kU-GxW"/>
                             <constraint firstItem="av5-1p-gJf" firstAttribute="leading" secondItem="SNM-AV-TAT" secondAttribute="leadingMargin" constant="70" id="G40-bu-APd"/>
-                            <constraint firstItem="77Z-Pj-iDG" firstAttribute="top" secondItem="PYd-qP-qov" secondAttribute="bottom" constant="110" id="OGj-qo-xOC"/>
+                            <constraint firstItem="7U6-tH-MhC" firstAttribute="top" secondItem="eBx-rs-yjY" secondAttribute="bottom" constant="-96.5" id="KwN-wz-ezD"/>
+                            <constraint firstItem="77Z-Pj-iDG" firstAttribute="top" secondItem="PYd-qP-qov" secondAttribute="bottom" constant="90" id="OGj-qo-xOC"/>
                             <constraint firstItem="77Z-Pj-iDG" firstAttribute="leading" secondItem="SNM-AV-TAT" secondAttribute="leadingMargin" id="Ojj-yD-GFi"/>
-                            <constraint firstItem="eBx-rs-yjY" firstAttribute="top" secondItem="77Z-Pj-iDG" secondAttribute="bottom" constant="170.5" id="PrI-A7-p8m"/>
                             <constraint firstItem="77Z-Pj-iDG" firstAttribute="trailing" secondItem="SNM-AV-TAT" secondAttribute="trailingMargin" id="YZb-Kz-3dG"/>
                             <constraint firstItem="eBx-rs-yjY" firstAttribute="width" secondItem="7U6-tH-MhC" secondAttribute="width" multiplier="1:6" id="gj9-EA-hPl"/>
                             <constraint firstAttribute="trailingMargin" secondItem="eBx-rs-yjY" secondAttribute="trailing" constant="68" id="hLh-Fq-Pmd"/>
@@ -664,7 +664,7 @@ has curly hair just like him. Play with his hair.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is his mami. Papi calls her “honey.” Sometimes Tino calls her “honey” too. Watch!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DZT-Tm-SQA">
-                                <rect key="frame" x="16" y="130" width="343" height="106.5"/>
+                                <rect key="frame" x="16" y="110" width="343" height="106.5"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -673,7 +673,7 @@ has curly hair just like him. Play with his hair.</string>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="DZT-Tm-SQA" firstAttribute="leading" secondItem="gnQ-6z-UNz" secondAttribute="leadingMargin" id="0c6-ay-ivI"/>
-                            <constraint firstItem="DZT-Tm-SQA" firstAttribute="top" secondItem="Dbe-un-whH" secondAttribute="bottom" constant="110" id="8qa-oJ-7BF"/>
+                            <constraint firstItem="DZT-Tm-SQA" firstAttribute="top" secondItem="Dbe-un-whH" secondAttribute="bottom" constant="90" id="8qa-oJ-7BF"/>
                             <constraint firstItem="DZT-Tm-SQA" firstAttribute="trailing" secondItem="gnQ-6z-UNz" secondAttribute="trailingMargin" id="g58-hl-6Qv"/>
                         </constraints>
                     </view>
@@ -698,7 +698,7 @@ has curly hair just like him. Play with his hair.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mami likes to cook. Help her make a salad." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyU-bA-wXT">
-                                <rect key="frame" x="16" y="130" width="343" height="71"/>
+                                <rect key="frame" x="16" y="110" width="343" height="71"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -738,8 +738,8 @@ has curly hair just like him. Play with his hair.</string>
                         <constraints>
                             <constraint firstItem="AmS-2E-dDr" firstAttribute="top" secondItem="3xz-fi-IGa" secondAttribute="bottom" constant="27" id="5CT-ez-f5C"/>
                             <constraint firstItem="zVS-KW-ot1" firstAttribute="leading" secondItem="gGI-9P-Cfp" secondAttribute="leadingMargin" id="6M9-Wn-qZu"/>
-                            <constraint firstItem="Kfx-yb-C1Q" firstAttribute="top" secondItem="dyU-bA-wXT" secondAttribute="bottom" constant="50" id="Qft-1f-YK1"/>
-                            <constraint firstItem="dyU-bA-wXT" firstAttribute="top" secondItem="WDf-Qu-kAA" secondAttribute="bottom" constant="110" id="T9q-Dt-Zlh"/>
+                            <constraint firstItem="AVQ-PU-z5Z" firstAttribute="top" secondItem="AmS-2E-dDr" secondAttribute="bottom" constant="9" id="DSF-ME-ddd"/>
+                            <constraint firstItem="dyU-bA-wXT" firstAttribute="top" secondItem="WDf-Qu-kAA" secondAttribute="bottom" constant="90" id="T9q-Dt-Zlh"/>
                             <constraint firstItem="3Ll-Rb-rUt" firstAttribute="trailing" secondItem="gGI-9P-Cfp" secondAttribute="trailingMargin" id="Uzw-Bh-gba"/>
                             <constraint firstItem="3Ll-Rb-rUt" firstAttribute="top" secondItem="Kfx-yb-C1Q" secondAttribute="bottom" constant="69" id="V09-WK-nab"/>
                             <constraint firstItem="dyU-bA-wXT" firstAttribute="trailing" secondItem="gGI-9P-Cfp" secondAttribute="trailingMargin" id="Vux-4c-hpO"/>
@@ -777,7 +777,7 @@ has curly hair just like him. Play with his hair.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tino likes to color. Help him color this picture of a bear." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3yf-Oz-5jv">
-                                <rect key="frame" x="16" y="130" width="343" height="71"/>
+                                <rect key="frame" x="16" y="110" width="343" height="71"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -837,14 +837,14 @@ has curly hair just like him. Play with his hair.</string>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="1TH-UW-O9Z" firstAttribute="top" secondItem="rbX-Fu-hEV" secondAttribute="bottom" id="28e-Tw-1oO"/>
-                            <constraint firstItem="3yf-Oz-5jv" firstAttribute="top" secondItem="NZx-RU-MOO" secondAttribute="bottom" constant="110" id="EJX-CR-hrl"/>
+                            <constraint firstItem="3yf-Oz-5jv" firstAttribute="top" secondItem="NZx-RU-MOO" secondAttribute="bottom" constant="90" id="EJX-CR-hrl"/>
                             <constraint firstAttribute="trailingMargin" secondItem="HDk-HO-NUZ" secondAttribute="trailing" constant="34" id="LBi-fA-xei"/>
                             <constraint firstItem="rbX-Fu-hEV" firstAttribute="leading" secondItem="jNN-zV-poI" secondAttribute="leading" id="Q3o-Ba-jK7"/>
                             <constraint firstItem="HDk-HO-NUZ" firstAttribute="leading" secondItem="jNN-zV-poI" secondAttribute="leadingMargin" constant="33" id="TzW-WA-hCv"/>
-                            <constraint firstItem="HDk-HO-NUZ" firstAttribute="top" secondItem="3yf-Oz-5jv" secondAttribute="bottom" constant="8" id="VeM-0F-k1A"/>
                             <constraint firstItem="3yf-Oz-5jv" firstAttribute="trailing" secondItem="jNN-zV-poI" secondAttribute="trailingMargin" id="ZXm-IP-19d"/>
                             <constraint firstAttribute="trailing" secondItem="rbX-Fu-hEV" secondAttribute="trailing" id="hN7-ci-0aT"/>
                             <constraint firstItem="3yf-Oz-5jv" firstAttribute="leading" secondItem="jNN-zV-poI" secondAttribute="leadingMargin" id="pov-Xt-HbU"/>
+                            <constraint firstItem="rbX-Fu-hEV" firstAttribute="top" secondItem="HDk-HO-NUZ" secondAttribute="bottom" constant="37" id="rdO-ki-CgI"/>
                         </constraints>
                     </view>
                     <connections>
@@ -868,7 +868,7 @@ has curly hair just like him. Play with his hair.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="That was fun! See you later!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ny-EY-Y8a">
-                                <rect key="frame" x="16" y="130" width="343" height="35.5"/>
+                                <rect key="frame" x="16" y="110" width="343" height="35.5"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -878,7 +878,7 @@ has curly hair just like him. Play with his hair.</string>
                         <constraints>
                             <constraint firstItem="7ny-EY-Y8a" firstAttribute="leading" secondItem="VoU-pl-rvO" secondAttribute="leadingMargin" id="0ir-8a-GCv"/>
                             <constraint firstItem="7ny-EY-Y8a" firstAttribute="trailing" secondItem="VoU-pl-rvO" secondAttribute="trailingMargin" id="Mc6-w9-eyA"/>
-                            <constraint firstItem="7ny-EY-Y8a" firstAttribute="top" secondItem="6VV-vO-xQB" secondAttribute="bottom" constant="110" id="SYW-hr-i5s"/>
+                            <constraint firstItem="7ny-EY-Y8a" firstAttribute="top" secondItem="6VV-vO-xQB" secondAttribute="bottom" constant="90" id="SYW-hr-i5s"/>
                         </constraints>
                     </view>
                     <connections>
