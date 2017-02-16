@@ -8,6 +8,8 @@ class StoryCollectionViewController: UICollectionViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.barTintColor = UIColor.init(red: 249/255, green: 203/255, blue: 156/255, alpha: 1)
+        self.navigationController?.navigationBar.tintColor = UIColor.init(red: 224/255, green: 102/255, blue: 102/255, alpha: 1)
     }
 
     // MARK: UICollectionViewDataSource
